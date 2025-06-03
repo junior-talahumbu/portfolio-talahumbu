@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mon Portfolio - JUNIOR TALAHUMBU</title>
+  <title>Portfolio - JUNIOR TALAHUMBU</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="icon" href="jr.PNG">
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -28,7 +29,7 @@
       color: white !important;
     }
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?tech') no-repeat center center/cover;
+      background: linear-gradient(rgba(63, 125, 241, 0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?tech') no-repeat center center/cover;
       color: white;
       padding: 150px 20px;
       text-align: center;
@@ -67,7 +68,7 @@
         font-size: 28px;
       }
       .hero p {
-        font-size: 18px;
+        font-size: 25px;
       }
     }
   </style>
@@ -80,12 +81,11 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand text-white" href="#">JR_TALAHUMBU</a>
+    <a class="navbar-brand text-white" href="#"> <strong>JR_TALAHUMBU</strong></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      MENU
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
         <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
@@ -100,7 +100,7 @@
 <!-- Accueil -->
 <section id="accueil" class="hero" data-aos="fade-up">
   <div class="container">
-    <h1>Salut, je suis Junior TALAHUMBU</h1>
+    <h1>Salut, je suis <strong>Junior TALAHUMBU</strong></h1>
     <p>Développeur Web | Passionné par la technologie</p>
   </div>
 </section>
@@ -111,10 +111,10 @@
     <h2 class="section-title">À propos de moi</h2>
     <div class="row align-items-center">
       <div class="col-md-6">
-        <p>Je suis développeur web passionné par la création de solutions numériques modernes. J’ai de l’expérience dans le développement d’applications web utilisant HTML, CSS, JavaScript, PHP, etc.</p>
+        <p style="font-size: 25PX; font-style: italic; font-family: 'Times New Roman', Times, serif; ;">Je suis développeur web passionné par la création de solutions numériques modernes. J’ai de l’expérience dans le développement d’applications web utilisant les technologies HTML, CSS, JavaScript, PHP, etc.</p>
       </div>
       <div class="col-md-6">
-        <img src="./jr.PNG" class="img-fluid rounded shadow" alt="Moi">
+        <img src="jr.png" class="img-fluid rounded shadow" alt="Moi">
       </div>
     </div>
   </div>
@@ -139,23 +139,38 @@
 <!-- Projets -->
 <section id="projets" data-aos="fade-left">
   <div class="container">
-    <h2 class="section-title">Mes Projets</h2>
+    <h2 class="section-title">Mes derniers Projets Réalisés </h2>
     <div class="row">
       <div class="col-md-6 mb-4">
         <div class="card shadow">
           <img src="https://source.unsplash.com/400x250/?app" class="card-img-top" alt="Projet 1">
           <div class="card-body">
-            <h5 class="card-title">Projet REGIDESO</h5>
-            <p class="card-text">Application de facturation en ligne avec gestion des paiements mobile money.</p>
+            <h5 class="card-title">Application des gestion de finance pour l'entreprise</h5>
+            <p class="card-text">Application web capable de contrôler les entrer et sorties d'argent pour une bonne gestion d'entreprise .</p>
           </div>
         </div>
       </div>
       <div class="col-md-6 mb-4">
         <div class="card shadow">
-          <img src="https://source.unsplash.com/400x250/?website" class="card-img-top" alt="Projet 2">
-          <div class="card-body">
-            <h5 class="card-title">Site FONAFEN</h5>
-            <p class="card-text">Plateforme de gestion des voyages pour enfants avec facture électronique.</p>
+          <table>
+            
+            <tr>
+              <td>
+                
+                <img src="graphique.jpg" alt="graphique des voyages" width="250" height="250">
+                  </a>
+              </td>
+              <td>
+                <a href="https://fonafen-trans.com/">
+                <img src="facture.jpg" alt="preuve de paiement " width="250" height="">
+                </a>
+              </td>
+            </tr>
+            </a>
+          </table>
+          <div class="card-body text-center">
+            <h5 class="card-title">Application Web pour FONAFEN </h5>
+            <p class="card-text">Plateforme de gestion des voyages pour enfants avec facture électronique ainsi que la graphique qui permet de controler les trajets les plus utilisés.</p>
           </div>
         </div>
       </div>
@@ -173,12 +188,41 @@
         <div class="col-md-6 mb-3"><input type="email" class="form-control" placeholder="Votre email" required></div>
         <div class="col-12 mb-3"><textarea class="form-control" rows="5" placeholder="Votre message"></textarea></div>
         <div class="col-12 text-center"><button type="submit" class="btn btn-primary">Envoyer</button></div>
-      </div>
+      </div><br>
+      <center>
+      <div class="col-md-6 mb-4">
+        <div class="card shadow ali bg alert alert-primary" >
+          <img src="https://source.unsplash.com/400x250/?website" class="card-img-top" alt="">
+          <div class="card-body">
+            <p style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Informations de contact</p>
+            <p>Veuillez me contacter et travaillons ensemble .</p>
+           <br>
+
+            <p class="card-text" style="text-align: left; font-size: 20px;"> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg> +243 816747605</p>
+          </div>
+
+          <p class="card-text" style="text-align: left; padding-left: 20px; font-size: 20px;"> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg> talahumbujunior@gmail.com</p>
+
+  <p class="card-text" style="text-align: left; padding-left: 20px; font-size: 20px;"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+</svg> Kinshasa, République Démocratique du Congo</p>
+          </div>
+          
+        </div>
+      
+        </center>
     </form>
     <div class="text-center mt-4 social-icons">
-      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://web.facebook.com/junior.talahumbu?" target="_blank"><i class="fab fa-facebook"></i></a>
       <a href="https://wa.me/243826546705" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="www.linkedin.com/in/junior-talahumbu-0839a52b5" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/junior-talahumbu" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/junior-talahumbu" target="_blank"><i class="fab fa-email"></i></a>
     </div>
   </div>
 </section>
